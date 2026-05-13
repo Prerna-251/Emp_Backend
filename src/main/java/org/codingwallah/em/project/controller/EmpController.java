@@ -18,9 +18,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 
 @RestController
-@RequestMapping("/api")
-// @CrossOrigin("http://localhost:3000/")
-@CrossOrigin(origins = "https://your-vercel-app.vercel.app")
+@CrossOrigin("http://localhost:3000/")
 public class EmpController {
     
     //List<Employee> employees = new ArrayList<>();
